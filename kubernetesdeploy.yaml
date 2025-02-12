@@ -17,7 +17,6 @@ spec:
       containers:
       - name: bankapp-eta-container
         image: prmd77/bankapp-eta-app
-        imagePullPolicy: always
         ports:
         - containerPort: 8082
 ---
